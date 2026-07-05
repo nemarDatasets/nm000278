@@ -1,0 +1,106 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Exported using pybv 0.7.6
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-ZDN_task-tsr_run-9_eeg.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+;             <Size in data points>, <Channel number (0 = marker is related to all channels)>
+;             <Date (YYYYMMDDhhmmssuuuuuu)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=Stimulus,S  3,1028,1,0
+Mk2=Stimulus,S  6,1028,1,0
+Mk3=Stimulus,S  1,1034,1,0
+Mk4=Stimulus,S  2,1637,1,0
+Mk5=Stimulus,S  1,1640,1,0
+Mk6=Stimulus,S  2,3049,1,0
+Mk7=Stimulus,S  1,3053,1,0
+Mk8=Stimulus,S  2,3825,1,0
+Mk9=Stimulus,S  1,3830,1,0
+Mk10=Stimulus,S  2,4609,1,0
+Mk11=Stimulus,S  1,4613,1,0
+Mk12=Stimulus,S  2,5481,1,0
+Mk13=Stimulus,S  4,5485,1,0
+Mk14=Stimulus,S  5,8045,1,0
+Mk15=Stimulus,S  1,8051,1,0
+Mk16=Stimulus,S  2,9049,1,0
+Mk17=Stimulus,S  1,9053,1,0
+Mk18=Stimulus,S  2,10017,1,0
+Mk19=Stimulus,S  1,10021,1,0
+Mk20=Stimulus,S  2,11029,1,0
+Mk21=Stimulus,S  1,11034,1,0
+Mk22=Stimulus,S  2,11729,1,0
+Mk23=Stimulus,S  4,11736,1,0
+Mk24=Stimulus,S  5,12623,1,0
+Mk25=Stimulus,S  1,12628,1,0
+Mk26=Stimulus,S  2,13490,1,0
+Mk27=Stimulus,S  1,13495,1,0
+Mk28=Stimulus,S  2,14222,1,0
+Mk29=Stimulus,S  1,14227,1,0
+Mk30=Stimulus,S  2,15054,1,0
+Mk31=Stimulus,S  1,15059,1,0
+Mk32=Stimulus,S  2,16150,1,0
+Mk33=Stimulus,S  1,16157,1,0
+Mk34=Stimulus,S  2,17086,1,0
+Mk35=Stimulus,S  4,17089,1,0
+Mk36=Stimulus,S  5,18102,1,0
+Mk37=Stimulus,S  1,18106,1,0
+Mk38=Stimulus,S  2,18926,1,0
+Mk39=Stimulus,S  1,18929,1,0
+Mk40=Stimulus,S  2,19682,1,0
+Mk41=Stimulus,S  1,19685,1,0
+Mk42=Stimulus,S  2,21110,1,0
+Mk43=Stimulus,S  1,21114,1,0
+Mk44=Stimulus,S  2,22746,1,0
+Mk45=Stimulus,S  4,22753,1,0
+Mk46=Stimulus,S  5,23922,1,0
+Mk47=Stimulus,S  1,23931,1,0
+Mk48=Stimulus,S  2,27895,1,0
+Mk49=Stimulus,S  1,27901,1,0
+Mk50=Stimulus,S  2,28943,1,0
+Mk51=Stimulus,S  1,28948,1,0
+Mk52=Stimulus,S  2,29887,1,0
+Mk53=Stimulus,S  4,29891,1,0
+Mk54=Stimulus,S  5,30407,1,0
+Mk55=Stimulus,S  1,30412,1,0
+Mk56=Stimulus,S  2,32623,1,0
+Mk57=Stimulus,S  1,32628,1,0
+Mk58=Stimulus,S  2,33875,1,0
+Mk59=Stimulus,S  1,33881,1,0
+Mk60=Stimulus,S  2,35471,1,0
+Mk61=Stimulus,S  1,35475,1,0
+Mk62=Stimulus,S  2,36531,1,0
+Mk63=Stimulus,S  4,36538,1,0
+Mk64=Stimulus,S  5,37507,1,0
+Mk65=Stimulus,S  1,37515,1,0
+Mk66=Stimulus,S  2,38620,1,0
+Mk67=Stimulus,S  1,38628,1,0
+Mk68=Stimulus,S  2,39544,1,0
+Mk69=Stimulus,S  1,39550,1,0
+Mk70=Stimulus,S  2,40576,1,0
+Mk71=Stimulus,S  1,40583,1,0
+Mk72=Stimulus,S  2,41340,1,0
+Mk73=Stimulus,S  4,41345,1,0
+Mk74=Stimulus,S  5,42096,1,0
+Mk75=Stimulus,S  1,42102,1,0
+Mk76=Stimulus,S  2,44192,1,0
+Mk77=Stimulus,S  1,44197,1,0
+Mk78=Stimulus,S  2,45064,1,0
+Mk79=Stimulus,S  1,45069,1,0
+Mk80=Stimulus,S  2,47240,1,0
+Mk81=Stimulus,S  1,47245,1,0
+Mk82=Stimulus,S  2,48016,1,0
+Mk83=Stimulus,S  1,48026,1,0
+Mk84=Stimulus,S  2,49112,1,0
+Mk85=Stimulus,S  1,49119,1,0
+Mk86=Stimulus,S  2,49980,1,0
+Mk87=Stimulus,S  1,49986,1,0
+Mk88=Stimulus,S  2,52245,1,0
+Mk89=Stimulus,S  1,52252,1,0
+Mk90=Stimulus,S  2,53304,1,0
+Mk91=Stimulus,S  1,53310,1,0
+Mk92=Stimulus,S  2,54441,1,0
+Mk93=Stimulus,S  7,54441,1,0
