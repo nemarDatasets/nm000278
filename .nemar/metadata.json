@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "ZuCo 1.0: Simultaneous EEG and Eye-Tracking during Natural Reading",
+  "description": "This dataset (ZuCo 1.0) provides simultaneous 128-channel EEG and eye-tracking recordings from adult native English speakers reading natural sentences. It includes three reading paradigms—sentiment reading, normal reading, and task-specific reading—designed to support research on the neural and oculomotor correlates of natural language comprehension. The resource is intended to facilitate combined EEG and eye-tracking analyses of reading behavior.",
+  "methods_description": "128-channel EEG (EGI Geodesic system, 500 Hz sampling, Cz reference) and eye-tracking data (EyeLink 1000, 500 Hz, left eye) were recorded simultaneously while participants read natural sentences across three tasks: sentiment reading, normal reading, and task-specific reading. Eye-tracking gaze and pupil samples were co-located with EEG recordings, and fixations, saccades, and blinks were annotated in events files.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Nora Hollenstein": {},
     "Jonathan Rotsztejn": {},
@@ -11,44 +16,6 @@
       "orcid": "0000-0002-6038-9471"
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1038/sdata.2018.291",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000278",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000278",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "ZuCo 1.0: Simultaneous EEG and Eye-Tracking during Natural Reading",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "20.6 GB (817 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".gz",
-    ".json",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "ZuCo 1.0 is a multimodal neuroimaging dataset combining simultaneous 128-channel EEG and eye-tracking recordings from adult native English speakers during natural sentence reading. The dataset encompasses three reading tasks: sentiment rating of movie reviews, naturalistic reading of Wikipedia sentences, and task-specific reading with semantic relation annotation. This resource enables investigation of neural and oculomotor correlates of language processing during naturalistic reading.",
-  "methods_description": "Data were collected using 128-channel EEG (EGI Geodesic, 500 Hz sampling rate, Cz reference) and eye-tracking (EyeLink 1000, 500 Hz sampling rate, left eye recording). Participants were adult native English speakers. Eye-tracking data include gaze and pupil samples recorded simultaneously with EEG, with fixations, saccades, and blinks annotated in event files.",
   "keywords": [
     {
       "term": "EEG"
@@ -63,14 +30,50 @@
       "term": "natural reading"
     },
     {
-      "term": "language processing"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
       "term": "sentiment analysis"
+    },
+    {
+      "term": "psycholinguistics"
+    },
+    {
+      "term": "fixations"
+    },
+    {
+      "term": "sentence comprehension"
     }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/sdata.2018.291",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000278",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000278",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "20.6 GB (817 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gz",
+    ".json",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
   ],
   "source_hash": "89506ee9a78fd8f2ba74fc270ea980d18db340f345ee0398b25666b0218a8b05"
 }
