@@ -1,0 +1,11 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000278-blue)](https://doi.org/10.82901/nemar.nm000278)
+
+# ZuCo 1.0: Simultaneous EEG and Eye-Tracking during Natural Reading
+
+Simultaneous 128-channel EEG (EGI Geodesic, 500 Hz, Cz reference) and eye-tracking (EyeLink 1000, 500 Hz, left eye) while adult native English speakers read natural sentences.
+
+Tasks: sr (Sentiment reading (task 1): reading movie-review sentences and rating sentiment.), nr (Normal reading (task 2): naturalistic reading of Wikipedia sentences.), tsr (Task-specific reading (task 3): reading Wikipedia sentences while annotating specific semantic relations.)
+
+Each reading block is a run; eye-tracking gaze/pupil samples are co-located _recording-eyetrack_physio, fixations/saccades/blinks are in events.tsv.
+
+Cite: Hollenstein, N., Rotsztejn, J., Troendle, M., Pedroni, A., Zhang, C., & Langer, N. (2018). ZuCo, a simultaneous EEG and eye-tracking resource for natural sentence reading. Scientific Data, 5, 180291.
