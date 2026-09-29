@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "ZuCo 1.0: Simultaneous EEG and Eye-Tracking during Natural Reading",
-  "description": "ZuCo 1.0 is a dataset of simultaneous 128-channel EEG and eye-tracking recordings collected while adult native English speakers read natural sentences. It includes three reading tasks: sentiment reading, normal reading, and task-specific reading with semantic annotation. The dataset is intended to support research combining neurophysiological and oculomotor measures of natural language reading.",
-  "methods_description": "Data were recorded using a 128-channel EGI Geodesic EEG system (500 Hz sampling, Cz reference) and an EyeLink 1000 eye-tracker (500 Hz, left eye) simultaneously while participants read sentences under three different task conditions (sentiment reading, normal reading, task-specific reading).",
+  "description": "ZuCo 1.0 is a dataset of simultaneous 128-channel EEG and eye-tracking recorded while adult native English speakers read natural sentences. Participants completed sentiment reading, normal reading, and task-specific reading paradigms. The dataset provides a resource for studying the neural and oculomotor correlates of natural language comprehension.",
+  "methods_description": "EEG was recorded with a 128-channel EGI Geodesic system at 500 Hz with a Cz reference. Eye movements were recorded simultaneously from the left eye with an EyeLink 1000 at 500 Hz. Each reading block is stored as a run, with gaze and pupil samples as physio recordings and fixations, saccades, and blinks in the events files.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -21,23 +21,26 @@
       "term": "EEG"
     },
     {
-      "term": "Eye-Tracking Technology",
+      "term": "eye tracking"
+    },
+    {
+      "term": "natural reading"
+    },
+    {
+      "term": "sentence comprehension"
+    },
+    {
+      "term": "psycholinguistics"
+    },
+    {
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000084542"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "Reading",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
-    },
-    {
-      "term": "natural language processing"
-    },
-    {
-      "term": "sentiment analysis"
-    },
-    {
-      "term": "psycholinguistics"
     }
   ],
   "related_identifiers": [
