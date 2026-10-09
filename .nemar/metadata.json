@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "ZuCo 1.0: Simultaneous EEG and Eye-Tracking during Natural Reading",
-  "description": "ZuCo 1.0 is a dataset of simultaneous 128-channel EEG and eye-tracking recorded while adult native English speakers read natural sentences. Participants completed sentiment reading, normal reading, and task-specific reading paradigms. The dataset provides a resource for studying the neural and oculomotor correlates of natural language comprehension.",
-  "methods_description": "EEG was recorded with a 128-channel EGI Geodesic system at 500 Hz with a Cz reference. Eye movements were recorded simultaneously from the left eye with an EyeLink 1000 at 500 Hz. Each reading block is stored as a run, with gaze and pupil samples as physio recordings and fixations, saccades, and blinks in the events files.",
+  "description": "ZuCo 1.0 is a BIDS-formatted dataset of simultaneous 128-channel EEG and eye-tracking recorded while adult native English speakers read natural sentences. Three reading tasks are included: sentiment reading of movie-review sentences, normal reading of Wikipedia sentences, and task-specific reading with semantic relation annotation. The dataset supports research on the neural and oculomotor correlates of natural language comprehension.",
+  "methods_description": "EEG was recorded with a 128-channel EGI Geodesic system at 500 Hz with a Cz reference. Eye movements were recorded simultaneously from the left eye with an EyeLink 1000 at 500 Hz. Each reading block is stored as a run. Gaze and pupil samples are stored as physio data, and fixations, saccades and blinks are stored in events.tsv.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -21,7 +21,7 @@
       "term": "EEG"
     },
     {
-      "term": "eye tracking"
+      "term": "eye-tracking"
     },
     {
       "term": "natural reading"
@@ -30,12 +30,14 @@
       "term": "sentence comprehension"
     },
     {
-      "term": "psycholinguistics"
-    },
-    {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Eye Movements",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005133"
     },
     {
       "term": "Reading",
@@ -78,5 +80,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "a229a1fee2cbdad07f0c03461387ceee43c79a2fcfade1dbad746d5512b409d4"
+  "source_hash": "df23b6b07c2553e07f8d9c9476e9c43fa2e3bb32a0b87ddfb8203662711f456b"
 }
